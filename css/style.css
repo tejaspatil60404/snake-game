@@ -19,7 +19,7 @@
     grid-template-rows: repeat(24, 1fr);
 }
 .head{
-    background: linear-gradient(red, yellow);
+    background: linear-gradient(green, yellow);
     border:1px solid black;
     border-radius: 5px;
 }

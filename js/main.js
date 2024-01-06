@@ -1,7 +1,7 @@
 let direction = {x:0, y:0}
 const eatSound = new Audio("sounds/food.mp3")
 const moveSound = new Audio("sounds/Snake.mp3")
-let speed = 5
+let speed = 10
 let lastPaintTime = 0
 let snakeArr = [{x: 15, y: 17}]
 inputDir = {x: -1, y: 0}
@@ -38,12 +38,6 @@ function main(ctime){
 //   ]
 
 function gameEngine(){ 
-    if(snakeArr.length > 5){
-        speed = 8
-    }
-    if(snakeArr.length > 10){
-        speed = 12
-    }
     if(isCollide(snakeArr)){
         score = 0
         speed = 5
