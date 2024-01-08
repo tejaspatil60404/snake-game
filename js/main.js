@@ -1,7 +1,7 @@
 let direction = {x:0, y:0}
 const eatSound = new Audio("sounds/food.mp3")
 const moveSound = new Audio("sounds/Snake.mp3")
-let speed = 10
+let speed = 5
 let lastPaintTime = 0
 let snakeArr = [{x: 15, y: 17}]
 inputDir = {x: -1, y: 0}
